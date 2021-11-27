@@ -118,7 +118,7 @@
             android:layout_height="110dp"/>
     </TableRow>
     <TableRow
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:gravity="center"
         android:layout_height="wrap_content"
         android:layout_width="match_parent">
@@ -128,7 +128,19 @@
             android:id="@+id/refreshButton"
             android:layout_height="wrap_content"
             android:text="Refresh"/>
-
     </TableRow>
 
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:backgroundTint="#FF5722"
+            android:id="@+id/restartButton"
+            android:layout_height="60dp"
+            android:text="Restart"/>
+    </TableRow>
 </TableLayout>
